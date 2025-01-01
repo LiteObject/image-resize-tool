@@ -27,6 +27,16 @@ python -m unittest test.py
 ```
 
 ## Dependencies
-- Python 3.x
-- Pillow library (pip install pillow)
-- ollama library (pip install ollama) - This is optional and only required for describing image content.
+To install the dependencies required by your project, you can use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Alternatively, you can install the dependencies individually using the following commands:
+
+```bash
+pip install ollama
+pip install pydantic
+pip install Pillow
+```
